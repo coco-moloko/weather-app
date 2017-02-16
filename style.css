@@ -1,0 +1,68 @@
+html {
+	height: 100vh;
+	background-image: url(./images/sky-pic.jpg);
+
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	height: 100vh;
+
+}
+
+.background {
+	justify-content:center;
+	background-color: LightSkyBlue;
+	opacity: 0.3;
+	margin: 0 5%;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 3em;
+	color: #282828;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+}
+	
+
+#app {
+	height:100vh;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	text-align: center;
+	margin:0 10%;
+	background: rgba(173, 216, 230, 0.3);
+	text-transform: capitalize;
+
+}
+
+.city-weather{
+	margin-top: 30px;
+	line-height: 2;
+}
+
+input.city-input {
+	width: 250px;
+	height: 25px;
+}
+
+button.get-weather-button {
+	background-color: white;
+	border: white;
+	height: 30px;
+	color: #282828;
+	font-size: 13px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#app img {
+	width: 100px;
+	height: 100px;
+
+}
+
+.images {
+	flex-direction: row;
+}
