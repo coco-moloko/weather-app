@@ -1,6 +1,7 @@
 html {
 	height: 100vh;
 	background-image: url(./images/sky-pic.jpg);
+	background-size: cover;
 
 }
 
